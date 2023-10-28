@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Satisfy&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    transition: all 0.5s;
+}
+
+.dark-theme {
+    background-color: #131313;
+    color: #ffff;
+}
+
+nav.top-nav {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.brand img {
+    height: 100px;
+    width: 100px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-menu li {
+    padding: 7px;
+    margin: 25px 0 10px 0;
+}
+
+.nav-menu li a {
+    font-size: 16px;
+    color: #3d3c3c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-menu li a:hover {
+    color: orangered;
+    transition: all 0.2s;
+}
+.top-nav i {
+    font-size: 25px;
+    color: rgb(236, 66, 4);
+    transition: all 0.5s;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.profile-about {
+    width: 700px;
+    height: 350px;
+    margin: 10px;
+    padding: 50px 20px;
+}
+
+.profile-about p {
+    margin-bottom: 30px;
+    color: #807e7e;    
+    font-family: 'Calistoga', serif;
+    font-size: 16px;
+}
+
+.profile-about h1 span {
+    font-family: 'Satisfy', cursive;
+    color: orangered;
+}
+a.button {
+    text-decoration: none;
+    padding: 10px 15px; 
+    width: 70px;
+    background-color: orangered;
+    color: #ffff;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.profile-about .social-media {
+    padding: 50px 0px;
+    font-size: 30px;
+}
+
+.social-media i {
+    margin: 7px;
+}
+
+.profile-image {
+    width: 400px;
+    height: 400px;
+    margin-inline: 20px;
+    position: relative;
+}
+
+.profile-image img {
+    height: 500px;
+    width: 500x;
+    z-index: 1;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -50px;
+}
+
+.overlay {
+    /* These are the KEY styles - you can add them directly to any object you want in your project */
+    border-radius: 30% 70% 66% 34% / 70% 70% 30% 30%;
+    /* These are ADDITIONAL styles - add them if you want an object exactly like in the demo above */
+    width: 350px;
+    height: 350px;
+    background: orangered;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
